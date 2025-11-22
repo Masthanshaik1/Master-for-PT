@@ -1,0 +1,43 @@
+pipeline {
+    agent any
+
+    parameters {
+        string(name: 'TEST_PLAN', defaultValue: 'AB_ACCOUNT_STATEMENT_F.jmx', description: 'JMeter Test Plan to run')
+    }
+
+    environment {
+        IMAGE_NAME = "jmeter-with-all-plugins"
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/<username>/jmeter-docker.git'
+            }
+        }
+
+        stage('Build Docker Image') {
+            steps {
+                script {
+                    docker.build("${env.IMAGE_NAME}", ".")
+                }
+            }
+        }
+
+        stage('Run JMeter Test') {
+            steps {
+                script {
+                    docker.image("${env.IMAGE_NAME}").inside("-v ${pwd()}/tests:/tests") {
+                        sh "jmeter -n -t /tests/${params.TEST_PLAN} -l /tests/results.jtl"
+                    }
+                }
+            }
+        }
+
+        stage('Archive Results') {
+            steps {
+                archiveArtifacts artifacts: 'tests/results.jtl', allowEmptyArchive: true
+            }
+        }
+    }
+}
