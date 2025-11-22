@@ -1,0 +1,23 @@
+# Base image
+FROM justb4/jmeter:5.6.2
+
+# Set working directory
+WORKDIR /opt/apache-jmeter-5.6.2
+
+# Install Plugins Manager
+ADD https://jmeter-plugins.org/get/JMeterPlugins-Manager-1.10.jar lib/ext/
+
+# Install CMD Runner
+ADD https://repo1.maven.org/maven2/kg/apc/cmdrunner/2.2/cmdrunner-2.2.jar lib/
+
+# Install Standard Plugins Set
+ADD https://jmeter-plugins.org/files/packages/jpgc-standard-2.38.zip /tmp/
+RUN cd /tmp && unzip jpgc-standard-2.38.zip && mv *.jar /opt/apache-jmeter-5.6.2/lib/ext/ && rm -rf /tmp/*
+
+# Install Prometheus Plugin
+ADD https://repo1.maven.org/maven2/kg/apc/jmeter-prometheus-plugin/1.8/jmeter-prometheus-plugin-1.8.jar lib/ext/
+
+# Set working directory for tests
+WORKDIR /tests
+
+# No default CMD — will be specified at runtime
