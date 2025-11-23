@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout Tests') {
             steps {
                 // Pull your test scripts from Git
-                git branch: 'main', credentialsId: 'YOUR_GIT_CREDENTIALS_ID', url: "${TEST_REPO}"
+                git branch: 'main', credentialsId: 'SHAIK_1122', url: "${TEST_REPO}"
             }
         }
 
