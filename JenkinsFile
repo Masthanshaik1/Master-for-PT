@@ -2,30 +2,26 @@ pipeline {
     agent any
 
     stages {
-
         stage('Checkout') {
             steps {
                 checkout scm
             }
         }
 
-        stage('Run JMeter Tests') {
+        stage('Run JMeter Test') {
             steps {
-                script {
-                    sh '''
-                    docker run --rm \
-                        -v $WORKSPACE:/tests \
-                        jmeter-with-plugins \
-                        /bin/bash -c "cd /tests && jmeter -n -t your_test.jmx -l result.jtl -e -o HTMLReport"
-                    '''
-                }
+                bat '''
+                docker run --rm ^
+                -v %WORKSPACE%:/test ^
+                jmeter-with-plugins ^
+                jmeter -n -t /test/YourTest.jmx -l /test/results.jtl
+                '''
             }
         }
 
         stage('Archive Results') {
             steps {
-                archiveArtifacts artifacts: 'result.jtl'
-                archiveArtifacts artifacts: 'HTMLReport/**'
+                archiveArtifacts artifacts: 'results.jtl', onlyIfSuccessful: false
             }
         }
     }
