@@ -14,7 +14,7 @@ pipeline {
                 docker run --rm ^
                 -v %WORKSPACE%:/test ^
                 jmeter-with-plugins ^
-                jmeter -n -t /test/YourTest.jmx -l /test/results.jtl
+                jmeter -n -t /test/webtours1610.jmx -l /test/results.jtl
                 '''
             }
         }
