@@ -23,7 +23,7 @@ pipeline {
                         -v "%WORKSPACE%:/tests" ^
                         ${IMAGE_NAME} ^
                         /opt/apache-jmeter-5.6.3/bin/jmeter ^
-                        -n -t /tests/C:\ProgramData\Jenkins\.jenkins\workspace\CICD_load_Testwith_50Users.jmx ^
+                        -n -t /tests/AB_SPRINT_4_50Urs_load.jmx ^
                         -l /tests/results.jtl
                     """
                 }
