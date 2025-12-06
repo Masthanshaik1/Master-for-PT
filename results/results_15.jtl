@@ -1,0 +1,201 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1765021689632,76,AB_LoanApply_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",PERSONAL_LOANS_APPY 5-1,,true,,2789,365,1,6,null,0,104,53
+1765021689730,76,-143 /LoanIQ/,200,OK,PERSONAL_LOANS_APPY 5-1,text,true,,2789,365,1,6,http://192.168.1.4:7001/LoanIQ/,76,0,53
+1765021689522,1068,AB_AS_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_SUMMARY 1-1,,true,,2789,353,1,6,null,0,209,1059
+1765021689730,1068,AB_AS_T01_LAUNCH_APP-51,200,OK,ACCOUNT_SUMMARY 1-1,text,true,,2789,353,1,6,http://192.168.1.4:7001/LoanIQ/,1068,0,1059
+1765021689545,1072,AB_AS_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",FUND_TRANSFER 3-1,,true,,2789,353,1,6,null,0,185,1058
+1765021689631,1072,AB_CCA_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",CREDIT_CARDS_APPLY 6-1,,true,,2789,353,1,6,null,0,99,1060
+1765021689730,1072,AB_FT_T01_LAUNCH_APP-51,200,OK,FUND_TRANSFER 3-1,text,true,,2789,353,1,6,http://192.168.1.4:7001/LoanIQ/,1071,0,1058
+1765021689730,1072,AB_CA_T01_LAUNCH_APP-4,200,OK,CREDIT_CARDS_APPLY 6-1,text,true,,2789,353,1,6,http://192.168.1.4:7001/LoanIQ/,1072,0,1060
+1765021691514,15,AB_AS_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_SUMMARY 1-2,,true,,2789,353,2,8,null,0,1,7
+1765021691515,15,AB_AS_T01_LAUNCH_APP-51,200,OK,ACCOUNT_SUMMARY 1-2,text,true,,2789,353,2,8,http://192.168.1.4:7001/LoanIQ/,15,0,7
+1765021691547,12,AB_AS_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",FUND_TRANSFER 3-2,,true,,2789,353,2,9,null,0,3,4
+1765021691549,12,AB_FT_T01_LAUNCH_APP-51,200,OK,FUND_TRANSFER 3-2,text,true,,2789,353,2,9,http://192.168.1.4:7001/LoanIQ/,12,0,4
+1765021691623,12,AB_CCA_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",CREDIT_CARDS_APPLY 6-2,,true,,2789,353,2,12,null,0,1,7
+1765021691624,12,AB_CA_T01_LAUNCH_APP-4,200,OK,CREDIT_CARDS_APPLY 6-2,text,true,,2789,353,2,12,http://192.168.1.4:7001/LoanIQ/,12,0,7
+1765021691626,10,AB_LoanApply_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",PERSONAL_LOANS_APPY 5-2,,true,,2789,365,2,12,null,0,2,4
+1765021691628,10,-143 /LoanIQ/,200,OK,PERSONAL_LOANS_APPY 5-2,text,true,,2789,365,2,12,http://192.168.1.4:7001/LoanIQ/,10,0,4
+1765021689532,17,AB_DDREQUEST_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",DD_REQUEST 2-1,,true,,2789,353,2,12,null,0,3002,7
+1765021692533,17,AB_DDREQUEST_T01_LAUNCH_APP-17,200,OK,DD_REQUEST 2-1,text,true,,2789,353,2,12,http://192.168.1.4:7001/LoanIQ/,17,0,7
+1765021689579,14,AB_AST_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_STATMENTS 4-1,,true,,2789,353,2,12,null,0,3002,6
+1765021692581,14,AB_AST_T01_LAUNCH_APP-19,200,OK,ACCOUNT_STATMENTS 4-1,text,true,,2789,353,2,12,http://192.168.1.4:7001/LoanIQ/,14,0,6
+1765021690803,12,AB_CCA_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",CREDIT_CARDS_APPLY 6-1,,true,,2700,488,2,12,null,0,2005,0
+1765021692805,12,AB_CA_T02_CLICK_ON_PERSONAL-10,200,OK,CREDIT_CARDS_APPLY 6-1,text,true,,2700,488,2,12,http://192.168.1.4:7001/LoanIQ/login.jsp,12,0,0
+1765021689813,11,AB_LoanApply_T02_SelectPersonalBanking,200,"Number of samples in transaction : 1, number of failing samples : 0",PERSONAL_LOANS_APPY 5-1,,true,,2700,500,2,12,null,0,3002,0
+1765021692814,11,-152 /LoanIQ/login.jsp,200,OK,PERSONAL_LOANS_APPY 5-1,text,true,,2700,500,2,12,http://192.168.1.4:7001/LoanIQ/login.jsp,11,0,0
+1765021693505,15,AB_AS_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_SUMMARY 1-3,,true,,2789,353,3,12,null,0,2,8
+1765021693506,15,AB_AS_T01_LAUNCH_APP-51,200,OK,ACCOUNT_SUMMARY 1-3,text,true,,2789,353,3,12,http://192.168.1.4:7001/LoanIQ/,15,0,8
+1765021693544,14,AB_AS_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",FUND_TRANSFER 3-3,,true,,2789,353,3,13,null,0,1,6
+1765021693545,14,AB_FT_T01_LAUNCH_APP-51,200,OK,FUND_TRANSFER 3-3,text,true,,2789,353,3,13,http://192.168.1.4:7001/LoanIQ/,14,0,6
+1765021693621,18,AB_LoanApply_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",PERSONAL_LOANS_APPY 5-3,,true,,2789,365,2,16,null,0,3,8
+1765021693623,18,-143 /LoanIQ/,200,OK,PERSONAL_LOANS_APPY 5-3,text,true,,2789,365,2,16,http://192.168.1.4:7001/LoanIQ/,18,0,8
+1765021693627,16,AB_CCA_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",CREDIT_CARDS_APPLY 6-3,,true,,2789,353,2,16,null,0,2,7
+1765021693629,16,AB_CA_T01_LAUNCH_APP-4,200,OK,CREDIT_CARDS_APPLY 6-3,text,true,,2789,353,2,16,http://192.168.1.4:7001/LoanIQ/,16,0,7
+1765021691637,9,AB_CCA_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",CREDIT_CARDS_APPLY 6-2,,true,,2700,488,2,16,null,0,2001,0
+1765021693639,9,AB_CA_T02_CLICK_ON_PERSONAL-10,200,OK,CREDIT_CARDS_APPLY 6-2,text,true,,2700,488,2,16,http://192.168.1.4:7001/LoanIQ/login.jsp,8,0,0
+1765021690803,10,AB_AS_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",FUND_TRANSFER 3-1,,true,,2700,488,3,15,null,0,3001,0
+1765021693804,10,AB_FT_T02_CLICK_ON_PERSONAL-56,200,OK,FUND_TRANSFER 3-1,text,true,,2700,488,3,15,http://192.168.1.4:7001/LoanIQ/login.jsp,10,0,0
+1765021690802,11,AB_AS_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_SUMMARY 1-1,,true,,2700,488,3,15,null,0,3001,0
+1765021693803,11,AB_AS_T02_CLICK_ON_PERSONAL-56,200,OK,ACCOUNT_SUMMARY 1-1,text,true,,2700,488,3,15,http://192.168.1.4:7001/LoanIQ/login.jsp,11,0,0
+1765021691520,15,AB_DDREQUEST_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",DD_REQUEST 2-2,,true,,2789,353,3,13,null,0,3002,8
+1765021694523,15,AB_DDREQUEST_T01_LAUNCH_APP-17,200,OK,DD_REQUEST 2-2,text,true,,2789,353,3,13,http://192.168.1.4:7001/LoanIQ/,15,0,8
+1765021691531,9,AB_AS_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_SUMMARY 1-2,,true,,2700,488,2,13,null,0,3000,0
+1765021694532,9,AB_AS_T02_CLICK_ON_PERSONAL-56,200,OK,ACCOUNT_SUMMARY 1-2,text,true,,2700,488,2,13,http://192.168.1.4:7001/LoanIQ/login.jsp,9,0,0
+1765021691562,8,AB_AS_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",FUND_TRANSFER 3-2,,true,,2700,488,2,12,null,0,3001,0
+1765021694564,8,AB_FT_T02_CLICK_ON_PERSONAL-56,200,OK,FUND_TRANSFER 3-2,text,true,,2700,488,2,12,http://192.168.1.4:7001/LoanIQ/login.jsp,7,0,0
+1765021691581,10,AB_AST_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_STATMENTS 4-2,,true,,2789,353,3,11,null,0,3002,3
+1765021694584,10,AB_AST_T01_LAUNCH_APP-19,200,OK,ACCOUNT_STATMENTS 4-2,text,true,,2789,353,3,11,http://192.168.1.4:7001/LoanIQ/,10,0,3
+1765021691639,7,AB_LoanApply_T02_SelectPersonalBanking,200,"Number of samples in transaction : 1, number of failing samples : 0",PERSONAL_LOANS_APPY 5-2,,true,,2700,500,2,11,null,0,3000,0
+1765021694640,7,-152 /LoanIQ/login.jsp,200,OK,PERSONAL_LOANS_APPY 5-2,text,true,,2700,500,2,11,http://192.168.1.4:7001/LoanIQ/login.jsp,7,0,0
+1765021695500,19,AB_AS_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_SUMMARY 1-4,,true,,2789,353,2,12,null,0,5,9
+1765021695504,19,AB_AS_T01_LAUNCH_APP-51,200,OK,ACCOUNT_SUMMARY 1-4,text,true,,2789,353,2,12,http://192.168.1.4:7001/LoanIQ/,19,0,9
+1765021692551,8,AB_DDREQUEST_T02_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",DD_REQUEST 2-1,,true,,2700,488,4,13,null,0,3002,0
+1765021695553,8,AB_DDREQUEST_T02_PERSONAL-21,200,OK,DD_REQUEST 2-1,text,true,,2700,488,4,13,http://192.168.1.4:7001/LoanIQ/login.jsp,8,0,0
+1765021695546,15,AB_AS_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",FUND_TRANSFER 3-4,,true,,2789,353,2,13,null,0,1,6
+1765021695547,15,AB_FT_T01_LAUNCH_APP-51,200,OK,FUND_TRANSFER 3-4,text,true,,2789,353,2,13,http://192.168.1.4:7001/LoanIQ/,15,0,6
+1765021692595,7,AB_AST_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_STATMENTS 4-1,,true,,2700,488,4,13,null,0,3001,0
+1765021695597,7,AB_AST_T02_CLICK_ON_PERSONAL-29,200,OK,ACCOUNT_STATMENTS 4-1,text,true,,2700,488,4,13,http://192.168.1.4:7001/LoanIQ/login.jsp,7,0,0
+1765021695621,15,AB_LoanApply_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",PERSONAL_LOANS_APPY 5-4,,true,,2789,365,2,14,null,0,1,8
+1765021695622,15,-143 /LoanIQ/,200,OK,PERSONAL_LOANS_APPY 5-4,text,true,,2789,365,2,14,http://192.168.1.4:7001/LoanIQ/,15,0,8
+1765021695625,12,AB_CCA_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",CREDIT_CARDS_APPLY 6-4,,true,,2789,353,2,14,null,0,1,7
+1765021695626,12,AB_CA_T01_LAUNCH_APP-4,200,OK,CREDIT_CARDS_APPLY 6-4,text,true,,2789,353,2,14,http://192.168.1.4:7001/LoanIQ/,12,0,7
+1765021693646,7,AB_CCA_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",CREDIT_CARDS_APPLY 6-3,,true,,2700,488,2,14,null,0,2001,0
+1765021695647,7,AB_CA_T02_CLICK_ON_PERSONAL-10,200,OK,CREDIT_CARDS_APPLY 6-3,text,true,,2700,488,2,14,http://192.168.1.4:7001/LoanIQ/login.jsp,7,0,0
+1765021693522,8,AB_AS_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_SUMMARY 1-3,,true,,2700,488,2,13,null,0,3001,0
+1765021696522,8,AB_AS_T02_CLICK_ON_PERSONAL-56,200,OK,ACCOUNT_SUMMARY 1-3,text,true,,2700,488,2,13,http://192.168.1.4:7001/LoanIQ/login.jsp,8,0,0
+1765021693520,11,AB_DDREQUEST_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",DD_REQUEST 2-3,,true,,2789,353,3,13,null,0,3001,4
+1765021696521,11,AB_DDREQUEST_T01_LAUNCH_APP-17,200,OK,DD_REQUEST 2-3,text,true,,2789,353,3,13,http://192.168.1.4:7001/LoanIQ/,11,0,4
+1765021693560,8,AB_AS_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",FUND_TRANSFER 3-3,,true,,2700,488,2,12,null,0,3000,0
+1765021696560,8,AB_FT_T02_CLICK_ON_PERSONAL-56,200,OK,FUND_TRANSFER 3-3,text,true,,2700,488,2,12,http://192.168.1.4:7001/LoanIQ/login.jsp,8,0,0
+1765021693577,12,AB_AST_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_STATMENTS 4-3,,true,,2789,353,3,11,null,0,3002,7
+1765021696579,12,AB_AST_T01_LAUNCH_APP-19,200,OK,ACCOUNT_STATMENTS 4-3,text,true,,2789,353,3,11,http://192.168.1.4:7001/LoanIQ/,12,0,7
+1765021693642,11,AB_LoanApply_T02_SelectPersonalBanking,200,"Number of samples in transaction : 1, number of failing samples : 0",PERSONAL_LOANS_APPY 5-3,,true,,2700,500,2,11,null,0,3001,0
+1765021696643,11,-152 /LoanIQ/login.jsp,200,OK,PERSONAL_LOANS_APPY 5-3,text,true,,2700,500,2,11,http://192.168.1.4:7001/LoanIQ/login.jsp,11,0,0
+1765021697495,16,AB_AS_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_SUMMARY 1-5,,true,,2789,353,2,12,null,0,3,7
+1765021697498,16,AB_AS_T01_LAUNCH_APP-51,200,OK,ACCOUNT_SUMMARY 1-5,text,true,,2789,353,2,12,http://192.168.1.4:7001/LoanIQ/,16,0,7
+1765021694539,11,AB_DDREQUEST_T02_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",DD_REQUEST 2-2,,true,,2700,488,4,13,null,0,3000,0
+1765021697539,11,AB_DDREQUEST_T02_PERSONAL-21,200,OK,DD_REQUEST 2-2,text,true,,2700,488,4,13,http://192.168.1.4:7001/LoanIQ/login.jsp,11,0,0
+1765021697547,12,AB_AS_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",FUND_TRANSFER 3-5,,true,,2789,353,2,12,null,0,1,6
+1765021697548,12,AB_FT_T01_LAUNCH_APP-51,200,OK,FUND_TRANSFER 3-5,text,true,,2789,353,2,12,http://192.168.1.4:7001/LoanIQ/,12,0,6
+1765021694595,7,AB_AST_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_STATMENTS 4-2,,true,,2700,488,4,13,null,0,3001,0
+1765021697596,7,AB_AST_T02_CLICK_ON_PERSONAL-29,200,OK,ACCOUNT_STATMENTS 4-2,text,true,,2700,488,4,13,http://192.168.1.4:7001/LoanIQ/login.jsp,7,0,0
+1765021697613,10,AB_LoanApply_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",PERSONAL_LOANS_APPY 5-5,,true,,2789,365,2,14,null,0,1,5
+1765021697614,10,-143 /LoanIQ/,200,OK,PERSONAL_LOANS_APPY 5-5,text,true,,2789,365,2,14,http://192.168.1.4:7001/LoanIQ/,10,0,5
+1765021697622,9,AB_CCA_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",CREDIT_CARDS_APPLY 6-5,,true,,2789,353,2,14,null,0,1,4
+1765021697623,9,AB_CA_T01_LAUNCH_APP-4,200,OK,CREDIT_CARDS_APPLY 6-5,text,true,,2789,353,2,14,http://192.168.1.4:7001/LoanIQ/,8,0,4
+1765021695639,5,AB_CCA_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",CREDIT_CARDS_APPLY 6-4,,true,,2700,488,2,14,null,0,2001,0
+1765021697639,5,AB_CA_T02_CLICK_ON_PERSONAL-10,200,OK,CREDIT_CARDS_APPLY 6-4,text,true,,2700,488,2,14,http://192.168.1.4:7001/LoanIQ/login.jsp,5,0,0
+1765021695510,17,AB_DDREQUEST_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",DD_REQUEST 2-4,,true,,2789,353,3,13,null,0,3003,9
+1765021698511,17,AB_DDREQUEST_T01_LAUNCH_APP-17,200,OK,DD_REQUEST 2-4,text,true,,2789,353,3,13,http://192.168.1.4:7001/LoanIQ/,17,0,9
+1765021695524,10,AB_AS_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_SUMMARY 1-4,,true,,2700,488,2,13,null,0,3000,0
+1765021698523,10,AB_AS_T02_CLICK_ON_PERSONAL-56,200,OK,ACCOUNT_SUMMARY 1-4,text,true,,2700,488,2,13,http://192.168.1.4:7001/LoanIQ/login.jsp,10,0,0
+1765021695566,6,AB_AS_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",FUND_TRANSFER 3-4,,true,,2700,488,2,12,null,0,3000,0
+1765021698565,6,AB_FT_T02_CLICK_ON_PERSONAL-56,200,OK,FUND_TRANSFER 3-4,text,true,,2700,488,2,12,http://192.168.1.4:7001/LoanIQ/login.jsp,6,0,0
+1765021695579,11,AB_AST_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_STATMENTS 4-4,,true,,2789,353,3,11,null,0,3001,7
+1765021698579,11,AB_AST_T01_LAUNCH_APP-19,200,OK,ACCOUNT_STATMENTS 4-4,text,true,,2789,353,3,11,http://192.168.1.4:7001/LoanIQ/,11,0,7
+1765021695638,8,AB_LoanApply_T02_SelectPersonalBanking,200,"Number of samples in transaction : 1, number of failing samples : 0",PERSONAL_LOANS_APPY 5-4,,true,,2700,500,2,11,null,0,3002,0
+1765021698638,8,-152 /LoanIQ/login.jsp,200,OK,PERSONAL_LOANS_APPY 5-4,text,true,,2700,500,2,11,http://192.168.1.4:7001/LoanIQ/login.jsp,8,0,0
+1765021699490,15,AB_AS_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_SUMMARY 1-6,,true,,2789,353,2,12,null,0,1,6
+1765021699491,15,AB_AS_T01_LAUNCH_APP-51,200,OK,ACCOUNT_SUMMARY 1-6,text,true,,2789,353,2,12,http://192.168.1.4:7001/LoanIQ/,15,0,6
+1765021696533,7,AB_DDREQUEST_T02_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",DD_REQUEST 2-3,,true,,2700,488,4,12,null,0,3000,0
+1765021699532,7,AB_DDREQUEST_T02_PERSONAL-21,200,OK,DD_REQUEST 2-3,text,true,,2700,488,4,12,http://192.168.1.4:7001/LoanIQ/login.jsp,7,0,0
+1765021699548,14,AB_AS_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",FUND_TRANSFER 3-6,,true,,2789,353,2,12,null,0,1,6
+1765021699549,14,AB_FT_T01_LAUNCH_APP-51,200,OK,FUND_TRANSFER 3-6,text,true,,2789,353,2,12,http://192.168.1.4:7001/LoanIQ/,13,0,6
+1765021696591,6,AB_AST_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_STATMENTS 4-3,,true,,2700,488,4,13,null,0,3001,0
+1765021699591,6,AB_AST_T02_CLICK_ON_PERSONAL-29,200,OK,ACCOUNT_STATMENTS 4-3,text,true,,2700,488,4,13,http://192.168.1.4:7001/LoanIQ/login.jsp,6,0,0
+1765021697632,8,AB_CCA_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",CREDIT_CARDS_APPLY 6-5,,true,,2700,488,1,12,null,0,2001,0
+1765021699632,8,AB_CA_T02_CLICK_ON_PERSONAL-10,200,OK,CREDIT_CARDS_APPLY 6-5,text,true,,2700,488,1,12,http://192.168.1.4:7001/LoanIQ/login.jsp,8,0,0
+1765021697505,18,AB_DDREQUEST_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",DD_REQUEST 2-5,,true,,2789,353,3,11,null,0,3002,8
+1765021700506,18,AB_DDREQUEST_T01_LAUNCH_APP-17,200,OK,DD_REQUEST 2-5,text,true,,2789,353,3,11,http://192.168.1.4:7001/LoanIQ/,18,0,8
+1765021697515,13,AB_AS_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_SUMMARY 1-5,,true,,2700,488,2,11,null,0,3002,0
+1765021700515,13,AB_AS_T02_CLICK_ON_PERSONAL-56,200,OK,ACCOUNT_SUMMARY 1-5,text,true,,2700,488,2,11,http://192.168.1.4:7001/LoanIQ/login.jsp,13,0,0
+1765021697560,6,AB_AS_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",FUND_TRANSFER 3-5,,true,,2700,488,2,10,null,0,3002,0
+1765021700560,6,AB_FT_T02_CLICK_ON_PERSONAL-56,200,OK,FUND_TRANSFER 3-5,text,true,,2700,488,2,10,http://192.168.1.4:7001/LoanIQ/login.jsp,6,0,0
+1765021697580,10,AB_AST_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_STATMENTS 4-5,,true,,2789,353,3,9,null,0,3002,5
+1765021700581,10,AB_AST_T01_LAUNCH_APP-19,200,OK,ACCOUNT_STATMENTS 4-5,text,true,,2789,353,3,9,http://192.168.1.4:7001/LoanIQ/,10,0,5
+1765021697624,6,AB_LoanApply_T02_SelectPersonalBanking,200,"Number of samples in transaction : 1, number of failing samples : 0",PERSONAL_LOANS_APPY 5-5,,true,,2700,500,1,9,null,0,3001,0
+1765021700624,6,-152 /LoanIQ/login.jsp,200,OK,PERSONAL_LOANS_APPY 5-5,text,true,,2700,500,1,9,http://192.168.1.4:7001/LoanIQ/login.jsp,5,0,0
+1765021701488,16,AB_AS_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_SUMMARY 1-7,,true,,2789,353,2,9,null,0,1,8
+1765021701489,16,AB_AS_T01_LAUNCH_APP-51,200,OK,ACCOUNT_SUMMARY 1-7,text,true,,2789,353,2,9,http://192.168.1.4:7001/LoanIQ/,16,0,8
+1765021698529,9,AB_DDREQUEST_T02_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",DD_REQUEST 2-4,,true,,2700,488,4,10,null,0,3001,0
+1765021701530,9,AB_DDREQUEST_T02_PERSONAL-21,200,OK,DD_REQUEST 2-4,text,true,,2700,488,4,10,http://192.168.1.4:7001/LoanIQ/login.jsp,8,0,0
+1765021701548,11,AB_AS_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",FUND_TRANSFER 3-7,,true,,2789,353,2,10,null,0,0,6
+1765021701548,11,AB_FT_T01_LAUNCH_APP-51,200,OK,FUND_TRANSFER 3-7,text,true,,2789,353,2,10,http://192.168.1.4:7001/LoanIQ/,11,0,6
+1765021698590,10,AB_AST_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_STATMENTS 4-4,,true,,2700,488,4,11,null,0,3001,0
+1765021701591,10,AB_AST_T02_CLICK_ON_PERSONAL-29,200,OK,ACCOUNT_STATMENTS 4-4,text,true,,2700,488,4,11,http://192.168.1.4:7001/LoanIQ/login.jsp,9,0,0
+1765021699507,9,AB_AS_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_SUMMARY 1-6,,true,,2700,488,2,10,null,0,3001,0
+1765021702507,9,AB_AS_T02_CLICK_ON_PERSONAL-56,200,OK,ACCOUNT_SUMMARY 1-6,text,true,,2700,488,2,10,http://192.168.1.4:7001/LoanIQ/login.jsp,9,0,0
+1765021699506,16,AB_DDREQUEST_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",DD_REQUEST 2-6,,true,,2789,353,3,9,null,0,3002,8
+1765021702507,16,AB_DDREQUEST_T01_LAUNCH_APP-17,200,OK,DD_REQUEST 2-6,text,true,,2789,353,3,9,http://192.168.1.4:7001/LoanIQ/,16,0,8
+1765021699564,9,AB_AS_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",FUND_TRANSFER 3-6,,true,,2700,488,2,9,null,0,3001,0
+1765021702565,9,AB_FT_T02_CLICK_ON_PERSONAL-56,200,OK,FUND_TRANSFER 3-6,text,true,,2700,488,2,9,http://192.168.1.4:7001/LoanIQ/login.jsp,9,0,0
+1765021699580,14,AB_AST_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_STATMENTS 4-6,,true,,2789,353,3,8,null,0,3002,5
+1765021702581,14,AB_AST_T01_LAUNCH_APP-19,200,OK,ACCOUNT_STATMENTS 4-6,text,true,,2789,353,3,8,http://192.168.1.4:7001/LoanIQ/,14,0,5
+1765021703483,18,AB_AS_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_SUMMARY 1-8,,true,,2789,353,2,9,null,0,1,9
+1765021703484,18,AB_AS_T01_LAUNCH_APP-51,200,OK,ACCOUNT_SUMMARY 1-8,text,true,,2789,353,2,9,http://192.168.1.4:7001/LoanIQ/,18,0,9
+1765021700524,6,AB_DDREQUEST_T02_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",DD_REQUEST 2-5,,true,,2700,488,4,10,null,0,3002,0
+1765021703525,6,AB_DDREQUEST_T02_PERSONAL-21,200,OK,DD_REQUEST 2-5,text,true,,2700,488,4,10,http://192.168.1.4:7001/LoanIQ/login.jsp,6,0,0
+1765021703543,11,AB_AS_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",FUND_TRANSFER 3-8,,true,,2789,353,2,10,null,0,1,5
+1765021703544,11,AB_FT_T01_LAUNCH_APP-51,200,OK,FUND_TRANSFER 3-8,text,true,,2789,353,2,10,http://192.168.1.4:7001/LoanIQ/,10,0,5
+1765021700591,8,AB_AST_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_STATMENTS 4-5,,true,,2700,488,4,11,null,0,3001,0
+1765021703592,8,AB_AST_T02_CLICK_ON_PERSONAL-29,200,OK,ACCOUNT_STATMENTS 4-5,text,true,,2700,488,4,11,http://192.168.1.4:7001/LoanIQ/login.jsp,8,0,0
+1765021701505,8,AB_AS_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_SUMMARY 1-7,,true,,2700,488,2,10,null,0,3002,0
+1765021704506,8,AB_AS_T02_CLICK_ON_PERSONAL-56,200,OK,ACCOUNT_SUMMARY 1-7,text,true,,2700,488,2,10,http://192.168.1.4:7001/LoanIQ/login.jsp,8,0,0
+1765021701512,12,AB_DDREQUEST_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",DD_REQUEST 2-7,,true,,2789,353,3,9,null,0,3003,6
+1765021704514,12,AB_DDREQUEST_T01_LAUNCH_APP-17,200,OK,DD_REQUEST 2-7,text,true,,2789,353,3,9,http://192.168.1.4:7001/LoanIQ/,12,0,6
+1765021701560,6,AB_AS_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",FUND_TRANSFER 3-7,,true,,2700,488,2,9,null,0,3001,0
+1765021704560,6,AB_FT_T02_CLICK_ON_PERSONAL-56,200,OK,FUND_TRANSFER 3-7,text,true,,2700,488,2,9,http://192.168.1.4:7001/LoanIQ/login.jsp,6,0,0
+1765021701581,10,AB_AST_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_STATMENTS 4-7,,true,,2789,353,3,8,null,0,3001,6
+1765021704582,10,AB_AST_T01_LAUNCH_APP-19,200,OK,ACCOUNT_STATMENTS 4-7,text,true,,2789,353,3,8,http://192.168.1.4:7001/LoanIQ/,10,0,6
+1765021705484,14,AB_AS_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_SUMMARY 1-9,,true,,2789,353,2,9,null,0,1,7
+1765021705485,14,AB_AS_T01_LAUNCH_APP-51,200,OK,ACCOUNT_SUMMARY 1-9,text,true,,2789,353,2,9,http://192.168.1.4:7001/LoanIQ/,14,0,7
+1765021702524,9,AB_DDREQUEST_T02_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",DD_REQUEST 2-6,,true,,2700,488,4,10,null,0,3001,0
+1765021705525,9,AB_DDREQUEST_T02_PERSONAL-21,200,OK,DD_REQUEST 2-6,text,true,,2700,488,4,10,http://192.168.1.4:7001/LoanIQ/login.jsp,9,0,0
+1765021705548,14,AB_AS_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",FUND_TRANSFER 3-9,,true,,2789,353,2,10,null,0,2,7
+1765021705549,14,AB_FT_T01_LAUNCH_APP-51,200,OK,FUND_TRANSFER 3-9,text,true,,2789,353,2,10,http://192.168.1.4:7001/LoanIQ/,14,0,7
+1765021702596,7,AB_AST_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_STATMENTS 4-6,,true,,2700,488,4,11,null,0,3002,0
+1765021705597,7,AB_AST_T02_CLICK_ON_PERSONAL-29,200,OK,ACCOUNT_STATMENTS 4-6,text,true,,2700,488,4,11,http://192.168.1.4:7001/LoanIQ/login.jsp,7,0,0
+1765021703503,10,AB_AS_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_SUMMARY 1-8,,true,,2700,488,2,10,null,0,3002,0
+1765021706504,10,AB_AS_T02_CLICK_ON_PERSONAL-56,200,OK,ACCOUNT_SUMMARY 1-8,text,true,,2700,488,2,10,http://192.168.1.4:7001/LoanIQ/login.jsp,10,0,0
+1765021703507,13,AB_DDREQUEST_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",DD_REQUEST 2-8,,true,,2789,353,3,9,null,0,3003,7
+1765021706509,13,AB_DDREQUEST_T01_LAUNCH_APP-17,200,OK,DD_REQUEST 2-8,text,true,,2789,353,3,9,http://192.168.1.4:7001/LoanIQ/,13,0,7
+1765021703555,7,AB_AS_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",FUND_TRANSFER 3-8,,true,,2700,488,2,9,null,0,3002,0
+1765021706556,7,AB_FT_T02_CLICK_ON_PERSONAL-56,200,OK,FUND_TRANSFER 3-8,text,true,,2700,488,2,9,http://192.168.1.4:7001/LoanIQ/login.jsp,7,0,0
+1765021703580,13,AB_AST_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_STATMENTS 4-8,,true,,2789,353,3,8,null,0,3001,6
+1765021706581,13,AB_AST_T01_LAUNCH_APP-19,200,OK,ACCOUNT_STATMENTS 4-8,text,true,,2789,353,3,8,http://192.168.1.4:7001/LoanIQ/,13,0,6
+1765021707481,12,AB_AS_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_SUMMARY 1-10,,true,,2789,353,2,9,null,0,1,6
+1765021707482,12,AB_AS_T01_LAUNCH_APP-51,200,OK,ACCOUNT_SUMMARY 1-10,text,true,,2789,353,2,9,http://192.168.1.4:7001/LoanIQ/,12,0,6
+1765021704527,7,AB_DDREQUEST_T02_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",DD_REQUEST 2-7,,true,,2700,488,4,10,null,0,3001,0
+1765021707528,7,AB_DDREQUEST_T02_PERSONAL-21,200,OK,DD_REQUEST 2-7,text,true,,2700,488,4,10,http://192.168.1.4:7001/LoanIQ/login.jsp,7,0,0
+1765021707551,13,AB_AS_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",FUND_TRANSFER 3-10,,true,,2789,353,2,10,null,0,1,6
+1765021707552,13,AB_FT_T01_LAUNCH_APP-51,200,OK,FUND_TRANSFER 3-10,text,true,,2789,353,2,10,http://192.168.1.4:7001/LoanIQ/,13,0,6
+1765021704592,9,AB_AST_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_STATMENTS 4-7,,true,,2700,488,4,11,null,0,3002,0
+1765021707593,9,AB_AST_T02_CLICK_ON_PERSONAL-29,200,OK,ACCOUNT_STATMENTS 4-7,text,true,,2700,488,4,11,http://192.168.1.4:7001/LoanIQ/login.jsp,9,0,0
+1765021705499,7,AB_AS_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_SUMMARY 1-9,,true,,2700,488,2,10,null,0,3002,0
+1765021708496,7,AB_AS_T02_CLICK_ON_PERSONAL-56,200,OK,ACCOUNT_SUMMARY 1-9,text,true,,2700,488,2,10,http://192.168.1.4:7001/LoanIQ/login.jsp,7,0,0
+1765021705511,15,AB_DDREQUEST_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",DD_REQUEST 2-9,,true,,2789,353,3,9,null,0,3001,7
+1765021708508,15,AB_DDREQUEST_T01_LAUNCH_APP-17,200,OK,DD_REQUEST 2-9,text,true,,2789,353,3,9,http://192.168.1.4:7001/LoanIQ/,15,0,7
+1765021705564,6,AB_AS_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",FUND_TRANSFER 3-9,,true,,2700,488,2,9,null,0,3002,0
+1765021708561,6,AB_FT_T02_CLICK_ON_PERSONAL-56,200,OK,FUND_TRANSFER 3-9,text,true,,2700,488,2,9,http://192.168.1.4:7001/LoanIQ/login.jsp,6,0,0
+1765021705583,12,AB_AST_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_STATMENTS 4-9,,true,,2789,353,3,8,null,0,3002,6
+1765021708580,12,AB_AST_T01_LAUNCH_APP-19,200,OK,ACCOUNT_STATMENTS 4-9,text,true,,2789,353,3,8,http://192.168.1.4:7001/LoanIQ/,12,0,6
+1765021706524,11,AB_DDREQUEST_T02_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",DD_REQUEST 2-8,,true,,2700,488,3,8,null,0,3001,0
+1765021709521,11,AB_DDREQUEST_T02_PERSONAL-21,200,OK,DD_REQUEST 2-8,text,true,,2700,488,3,8,http://192.168.1.4:7001/LoanIQ/login.jsp,11,0,0
+1765021706594,9,AB_AST_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_STATMENTS 4-8,,true,,2700,488,3,7,null,0,3002,0
+1765021709591,9,AB_AST_T02_CLICK_ON_PERSONAL-29,200,OK,ACCOUNT_STATMENTS 4-8,text,true,,2700,488,3,7,http://192.168.1.4:7001/LoanIQ/login.jsp,9,0,0
+1765021707494,11,AB_AS_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_SUMMARY 1-10,,true,,2700,488,1,6,null,0,3002,0
+1765021710491,11,AB_AS_T02_CLICK_ON_PERSONAL-56,200,OK,ACCOUNT_SUMMARY 1-10,text,true,,2700,488,1,6,http://192.168.1.4:7001/LoanIQ/login.jsp,11,0,0
+1765021707505,12,AB_DDREQUEST_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",DD_REQUEST 2-10,,true,,2789,353,2,5,null,0,3002,6
+1765021710502,12,AB_DDREQUEST_T01_LAUNCH_APP-17,200,OK,DD_REQUEST 2-10,text,true,,2789,353,2,5,http://192.168.1.4:7001/LoanIQ/,12,0,6
+1765021707565,11,AB_AS_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",FUND_TRANSFER 3-10,,true,,2700,488,1,5,null,0,3002,0
+1765021710562,11,AB_FT_T02_CLICK_ON_PERSONAL-56,200,OK,FUND_TRANSFER 3-10,text,true,,2700,488,1,5,http://192.168.1.4:7001/LoanIQ/login.jsp,10,0,0
+1765021707581,9,AB_AST_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_STATMENTS 4-10,,true,,2789,353,2,4,null,0,3001,5
+1765021710578,9,AB_AST_T01_LAUNCH_APP-19,200,OK,ACCOUNT_STATMENTS 4-10,text,true,,2789,353,2,4,http://192.168.1.4:7001/LoanIQ/,9,0,5
+1765021708523,11,AB_DDREQUEST_T02_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",DD_REQUEST 2-9,,true,,2700,488,2,4,null,0,3002,0
+1765021711525,11,AB_DDREQUEST_T02_PERSONAL-21,200,OK,DD_REQUEST 2-9,text,true,,2700,488,2,4,http://192.168.1.4:7001/LoanIQ/login.jsp,10,0,0
+1765021708593,7,AB_AST_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_STATMENTS 4-9,,true,,2700,488,2,3,null,0,3002,0
+1765021711594,7,AB_AST_T02_CLICK_ON_PERSONAL-29,200,OK,ACCOUNT_STATMENTS 4-9,text,true,,2700,488,2,3,http://192.168.1.4:7001/LoanIQ/login.jsp,7,0,0
+1765021710515,13,AB_DDREQUEST_T02_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",DD_REQUEST 2-10,,true,,2700,488,1,2,null,0,3002,0
+1765021713516,13,AB_DDREQUEST_T02_PERSONAL-21,200,OK,DD_REQUEST 2-10,text,true,,2700,488,1,2,http://192.168.1.4:7001/LoanIQ/login.jsp,13,0,0
+1765021710588,10,AB_AST_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_STATMENTS 4-10,,true,,2700,488,1,1,null,0,3002,0
+1765021713589,10,AB_AST_T02_CLICK_ON_PERSONAL-29,200,OK,ACCOUNT_STATMENTS 4-10,text,true,,2700,488,1,1,http://192.168.1.4:7001/LoanIQ/login.jsp,10,0,0
