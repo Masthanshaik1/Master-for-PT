@@ -30,11 +30,6 @@ pipeline {
             }
         }
 
-        stage('Archive Results') {
-            steps {
-                archiveArtifacts artifacts: 'results.jtl', fingerprint: true
-            }
-        }
  stage('Archive Results') {
             steps {
                 archiveArtifacts artifacts: 'LoadTest/results.jtl, report/**', allowEmptyArchive: true
@@ -76,4 +71,5 @@ pipeline {
         }
     }
 }
+
 
