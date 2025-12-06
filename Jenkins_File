@@ -52,10 +52,13 @@ pipeline {
                     git config user.email "masthan.shaik@spectravisionit.com"
                     git config user.name "Masthanshaik1"
 
+                    rem Pull latest changes first
                     git pull https://%GIT_USER%:%GIT_PASS%@github.com/Masthanshaik1/Master-for-PT.git main
 
+                    rem Create results folder if not exists
                     if not exist results mkdir results
 
+                    rem Append build number to results file and folder
                     set BUILD_NUM=%BUILD_NUMBER%
                     copy /Y results.jtl results\\results_%BUILD_NUM%.jtl
                     xcopy /E /I /Y report results\\report_%BUILD_NUM%
@@ -71,4 +74,5 @@ pipeline {
         }
     }
 }
+
 
