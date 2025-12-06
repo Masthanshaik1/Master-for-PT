@@ -25,7 +25,7 @@ pipeline {
                       ${IMAGE_NAME} ^
                       /opt/apache-jmeter-5.6.3/bin/jmeter ^
                       -n ^
-                      -t /tests/JMX/webtours1610.jmx ^
+                      -t /tests/JMX/webtours0612.jmx ^
                       -l /tests/results.jtl ^
                       -e -o /tests/report
                     """
@@ -74,6 +74,7 @@ pipeline {
         }
     }
 }
+
 
 
 
