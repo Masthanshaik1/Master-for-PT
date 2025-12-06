@@ -13,7 +13,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="host" elementType="Argument">
             <stringProp name="Argument.name">host</stringProp>
-            <stringProp name="Argument.value">10.67.125.122</stringProp>
+            <stringProp name="Argument.value">10.124.81.122</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="scheme" elementType="Argument">
@@ -57,7 +57,7 @@
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="01_launch-67" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="01_launch-67">
             <stringProp name="HTTPSampler.domain">${host}</stringProp>
             <stringProp name="HTTPSampler.port">1080</stringProp>
             <stringProp name="HTTPSampler.protocol">http</stringProp>
@@ -304,14 +304,14 @@
                 <elementProp name="username" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
                   <stringProp name="Argument.name">username</stringProp>
-                  <stringProp name="Argument.value">jojo</stringProp>
+                  <stringProp name="Argument.value">${ACC}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
                 <elementProp name="password" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
                   <stringProp name="Argument.name">password</stringProp>
-                  <stringProp name="Argument.value">bean</stringProp>
+                  <stringProp name="Argument.value">${PASS}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
@@ -387,22 +387,20 @@
               <stringProp name="TestPlan.comments">0-5000</stringProp>
             </UniformRandomTimer>
             <hashTree/>
-            <dukhi.a.jmeter.config.UniqueCSVDataSet guiclass="TestBeanGUI" testclass="dukhi.a.jmeter.config.UniqueCSVDataSet" testname="Unique CSV Data Set Config" enabled="false">
-              <intProp name="blockSize">1</intProp>
-              <stringProp name="delimiter">,</stringProp>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config">
+              <stringProp name="filename">D:/WEB_TOUR.csv</stringProp>
               <stringProp name="fileEncoding"></stringProp>
-              <stringProp name="filename"></stringProp>
+              <stringProp name="variableNames">ACC,PASS</stringProp>
               <boolProp name="ignoreFirstLine">false</boolProp>
+              <stringProp name="delimiter">,</stringProp>
               <boolProp name="quotedData">false</boolProp>
               <boolProp name="recycle">true</boolProp>
-              <stringProp name="shareMode">shareMode.all</stringProp>
               <boolProp name="stopThread">false</boolProp>
-              <stringProp name="threadGroup">Thread Group A</stringProp>
-              <stringProp name="variableNames"></stringProp>
-            </dukhi.a.jmeter.config.UniqueCSVDataSet>
+              <stringProp name="shareMode">shareMode.all</stringProp>
+            </CSVDataSet>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="02_login-72" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="02_login-72">
             <stringProp name="HTTPSampler.domain">${host}</stringProp>
             <stringProp name="HTTPSampler.port">1080</stringProp>
             <stringProp name="HTTPSampler.protocol">http</stringProp>
@@ -466,7 +464,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="02_login-73" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="02_login-73">
             <stringProp name="HTTPSampler.domain">${host}</stringProp>
             <stringProp name="HTTPSampler.port">1080</stringProp>
             <stringProp name="HTTPSampler.protocol">http</stringProp>
@@ -1341,7 +1339,7 @@
           <stringProp name="filename">C:\Users\shaik\OneDrive\Desktop\JMeter_Work\Base_line_test\AB_SPRINT_3_FOR_MIXED2_Results.jtl</stringProp>
         </ResultCollector>
         <hashTree/>
-        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
@@ -1373,7 +1371,7 @@
               <sampleCount>true</sampleCount>
             </value>
           </objProp>
-          <stringProp name="filename">C:\Users\shaik\OneDrive\Desktop\JMeter_Work\Base_line_test\AB_SPRINT_2_FOR_MIXED1_Resuts1.jtl</stringProp>
+          <stringProp name="filename">C:\ProgramData\Jenkins\.jenkins\workspace\CICD_SAMPLE1\results\results_31.jtl</stringProp>
         </ResultCollector>
         <hashTree/>
         <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ThreadsStateOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Active Threads Over Time" enabled="false">
@@ -1410,7 +1408,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">C:\Users\shaik\OneDrive\Desktop\JMeter_Work\Base_line_test\AB_SPRINT_3_FOR_MIXED2_Results.jtl</stringProp>
+          <stringProp name="filename">C:\ProgramData\Jenkins\.jenkins\workspace\CICD_SAMPLE1\results\results_31.jtl</stringProp>
           <longProp name="interval_grouping">500</longProp>
           <boolProp name="graph_aggregated">false</boolProp>
           <stringProp name="include_sample_labels"></stringProp>
