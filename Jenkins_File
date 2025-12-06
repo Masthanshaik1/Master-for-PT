@@ -68,12 +68,12 @@ pipeline {
                     git commit -m "Automated: Add latest JMeter results for build #%BUILD_NUM%" || echo Nothing to commit
 
                     git push https://%GIT_USER%:%GIT_PASS%@github.com/Masthanshaik1/Master-for-PT.git main
-                    """
-                }
+                    """}
             }
         }
     }
 }
+
 
 
 
