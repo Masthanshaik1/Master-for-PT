@@ -639,10 +639,14 @@ log.info(&quot; Balance:&quot; +balance);</stringProp>
             </value>
           </objProp>
 <<<<<<< HEAD
+<<<<<<< HEAD
           <stringProp name="filename">C:\Users\shaik\OneDrive\Desktop\results_24.jtl</stringProp>
 =======
           <stringProp name="filename">C:\Users\shaik\OneDrive\Desktop\results_22.jtl</stringProp>
 >>>>>>> 4bc852740a890e99b62d15b7ce6836b7c154c54f
+=======
+          <stringProp name="filename">C:\Users\shaik\OneDrive\Desktop\results_24.jtl</stringProp>
+>>>>>>> 4a050cd1091518adf9882f0925acd961f1a56a97
         </ResultCollector>
         <hashTree/>
         <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ThreadsStateOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Active Threads Over Time">
