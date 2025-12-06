@@ -638,7 +638,7 @@ log.info(&quot; Balance:&quot; +balance);</stringProp>
               <sampleCount>true</sampleCount>
             </value>
           </objProp>
-          <stringProp name="filename">C:\Users\shaik\OneDrive\Desktop\results.jtl</stringProp>
+          <stringProp name="filename">C:\Users\shaik\OneDrive\Desktop\results_22.jtl</stringProp>
         </ResultCollector>
         <hashTree/>
         <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ThreadsStateOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Active Threads Over Time">
