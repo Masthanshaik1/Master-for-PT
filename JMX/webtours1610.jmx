@@ -388,7 +388,7 @@
             </UniformRandomTimer>
             <hashTree/>
             <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config">
-              <stringProp name="filename">D:/WEB_TOUR.csv</stringProp>
+              <stringProp name="filename">C:/ProgramData/Jenkins/.jenkins/workspace/CICD_SAMPLE1/WEB_TOUR.csv</stringProp>
               <stringProp name="fileEncoding"></stringProp>
               <stringProp name="variableNames">ACC,PASS</stringProp>
               <boolProp name="ignoreFirstLine">false</boolProp>
