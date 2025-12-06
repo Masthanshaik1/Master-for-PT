@@ -1,0 +1,101 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1765037184894,291,01_launch,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-1,,true,,4453,1670,1,1,null,0,112,23
+1765037184996,32,01_launch-67,200,OK,Thread Group 1-1,text,true,,664,357,1,1,http://10.124.81.122:1080/WebTours/,32,0,23
+1765037185030,2,01_launch-68,200,OK,Thread Group 1-1,text,true,,1007,411,1,1,http://10.124.81.122:1080/WebTours/header.html,2,0,0
+1765037185033,55,01_launch-69,200,OK,Thread Group 1-1,text,true,,1025,442,1,1,http://10.124.81.122:1080/cgi-bin/welcome.pl?signOff=1,53,0,0
+1765037185092,202,01_launch-70,200,OK,Thread Group 1-1,text,true,,1757,460,1,1,http://10.124.81.122:1080/cgi-bin/nav.pl?in=home,198,0,0
+1765037189874,236,01_launch,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-2,,true,,4453,1670,1,1,null,0,11,7
+1765037189880,14,01_launch-67,200,OK,Thread Group 1-2,text,true,,664,357,1,1,http://10.124.81.122:1080/WebTours/,14,0,7
+1765037189896,8,01_launch-68,200,OK,Thread Group 1-2,text,true,,1007,411,1,1,http://10.124.81.122:1080/WebTours/header.html,8,0,0
+1765037189905,75,01_launch-69,200,OK,Thread Group 1-2,text,true,,1025,442,1,1,http://10.124.81.122:1080/cgi-bin/welcome.pl?signOff=1,71,0,0
+1765037189982,139,01_launch-70,200,OK,Thread Group 1-2,text,true,,1757,460,1,1,http://10.124.81.122:1080/cgi-bin/nav.pl?in=home,135,0,0
+1765037194866,197,01_launch,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-3,,true,,4452,1670,1,1,null,0,6,3
+1765037194867,6,01_launch-67,200,OK,Thread Group 1-3,text,true,,664,357,1,1,http://10.124.81.122:1080/WebTours/,6,0,3
+1765037194874,2,01_launch-68,200,OK,Thread Group 1-3,text,true,,1007,411,1,1,http://10.124.81.122:1080/WebTours/header.html,2,0,0
+1765037194877,66,01_launch-69,200,OK,Thread Group 1-3,text,true,,1025,442,1,1,http://10.124.81.122:1080/cgi-bin/welcome.pl?signOff=1,63,0,0
+1765037194945,123,01_launch-70,200,OK,Thread Group 1-3,text,true,,1756,460,1,1,http://10.124.81.122:1080/cgi-bin/nav.pl?in=home,118,0,0
+1765037199860,297,01_launch,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-4,,true,,4449,1670,1,1,null,0,9,11
+1765037199864,24,01_launch-67,200,OK,Thread Group 1-4,text,true,,664,357,1,1,http://10.124.81.122:1080/WebTours/,24,0,11
+1765037199890,6,01_launch-68,200,OK,Thread Group 1-4,text,true,,1007,411,1,1,http://10.124.81.122:1080/WebTours/header.html,6,0,0
+1765037199897,73,01_launch-69,200,OK,Thread Group 1-4,text,true,,1025,442,1,1,http://10.124.81.122:1080/cgi-bin/welcome.pl?signOff=1,69,0,0
+1765037199971,194,01_launch-70,200,OK,Thread Group 1-4,text,true,,1753,460,1,1,http://10.124.81.122:1080/cgi-bin/nav.pl?in=home,189,0,0
+1765037204864,340,01_launch,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-5,,true,,4451,1670,1,1,null,0,12,11
+1765037204871,24,01_launch-67,200,OK,Thread Group 1-5,text,true,,664,357,1,1,http://10.124.81.122:1080/WebTours/,24,0,11
+1765037204896,7,01_launch-68,200,OK,Thread Group 1-5,text,true,,1007,411,1,1,http://10.124.81.122:1080/WebTours/header.html,7,0,0
+1765037204904,61,01_launch-69,200,OK,Thread Group 1-5,text,true,,1025,442,1,1,http://10.124.81.122:1080/cgi-bin/welcome.pl?signOff=1,59,0,0
+1765037204967,248,01_launch-70,200,OK,Thread Group 1-5,text,true,,1755,460,1,1,http://10.124.81.122:1080/cgi-bin/nav.pl?in=home,239,0,0
+1765037209849,314,01_launch,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-6,,true,,4453,1670,1,1,null,0,14,10
+1765037209855,20,01_launch-67,200,OK,Thread Group 1-6,text,true,,664,357,1,1,http://10.124.81.122:1080/WebTours/,20,0,10
+1765037209879,7,01_launch-68,200,OK,Thread Group 1-6,text,true,,1007,411,1,1,http://10.124.81.122:1080/WebTours/header.html,7,0,0
+1765037209887,84,01_launch-69,200,OK,Thread Group 1-6,text,true,,1025,442,1,1,http://10.124.81.122:1080/cgi-bin/welcome.pl?signOff=1,77,0,0
+1765037209974,203,01_launch-70,200,OK,Thread Group 1-6,text,true,,1757,460,1,1,http://10.124.81.122:1080/cgi-bin/nav.pl?in=home,196,0,0
+1765037214846,302,01_launch,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-7,,true,,4446,1670,1,1,null,0,8,11
+1765037214850,22,01_launch-67,200,OK,Thread Group 1-7,text,true,,664,357,1,1,http://10.124.81.122:1080/WebTours/,22,0,11
+1765037214873,6,01_launch-68,200,OK,Thread Group 1-7,text,true,,1007,411,1,1,http://10.124.81.122:1080/WebTours/header.html,6,0,0
+1765037214880,85,01_launch-69,200,OK,Thread Group 1-7,text,true,,1025,442,1,1,http://10.124.81.122:1080/cgi-bin/welcome.pl?signOff=1,81,0,0
+1765037214966,189,01_launch-70,200,OK,Thread Group 1-7,text,true,,1750,460,1,1,http://10.124.81.122:1080/cgi-bin/nav.pl?in=home,184,0,0
+1765037219852,259,01_launch,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-8,,true,,4453,1670,1,1,null,0,9,13
+1765037219857,20,01_launch-67,200,OK,Thread Group 1-8,text,true,,664,357,1,1,http://10.124.81.122:1080/WebTours/,20,0,13
+1765037219878,6,01_launch-68,200,OK,Thread Group 1-8,text,true,,1007,411,1,1,http://10.124.81.122:1080/WebTours/header.html,6,0,0
+1765037219885,63,01_launch-69,200,OK,Thread Group 1-8,text,true,,1025,442,1,1,http://10.124.81.122:1080/cgi-bin/welcome.pl?signOff=1,60,0,0
+1765037219949,170,01_launch-70,200,OK,Thread Group 1-8,text,true,,1757,460,1,1,http://10.124.81.122:1080/cgi-bin/nav.pl?in=home,166,0,0
+1765037224843,242,01_launch,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-9,,true,,4451,1670,1,1,null,0,5,5
+1765037224845,9,01_launch-67,200,OK,Thread Group 1-9,text,true,,664,357,1,1,http://10.124.81.122:1080/WebTours/,9,0,5
+1765037224855,5,01_launch-68,200,OK,Thread Group 1-9,text,true,,1007,411,1,1,http://10.124.81.122:1080/WebTours/header.html,5,0,0
+1765037224861,71,01_launch-69,200,OK,Thread Group 1-9,text,true,,1025,442,1,1,http://10.124.81.122:1080/cgi-bin/welcome.pl?signOff=1,67,0,0
+1765037224933,157,01_launch-70,200,OK,Thread Group 1-9,text,true,,1755,460,1,1,http://10.124.81.122:1080/cgi-bin/nav.pl?in=home,150,0,0
+1765037229837,301,01_launch,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-10,,true,,4449,1670,1,1,null,0,8,6
+1765037229841,12,01_launch-67,200,OK,Thread Group 1-10,text,true,,664,357,1,1,http://10.124.81.122:1080/WebTours/,12,0,6
+1765037229854,4,01_launch-68,200,OK,Thread Group 1-10,text,true,,1007,411,1,1,http://10.124.81.122:1080/WebTours/header.html,4,0,0
+1765037229859,62,01_launch-69,200,OK,Thread Group 1-10,text,true,,1025,442,1,1,http://10.124.81.122:1080/cgi-bin/welcome.pl?signOff=1,59,0,0
+1765037229922,223,01_launch-70,200,OK,Thread Group 1-10,text,true,,1753,460,1,1,http://10.124.81.122:1080/cgi-bin/nav.pl?in=home,216,0,0
+1765037234837,201,01_launch,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-11,,true,,4451,1670,1,1,null,0,7,6
+1765037234840,11,01_launch-67,200,OK,Thread Group 1-11,text,true,,664,357,1,1,http://10.124.81.122:1080/WebTours/,11,0,6
+1765037234852,4,01_launch-68,200,OK,Thread Group 1-11,text,true,,1007,411,1,1,http://10.124.81.122:1080/WebTours/header.html,4,0,0
+1765037234857,64,01_launch-69,200,OK,Thread Group 1-11,text,true,,1025,442,1,1,http://10.124.81.122:1080/cgi-bin/welcome.pl?signOff=1,61,0,0
+1765037234922,122,01_launch-70,200,OK,Thread Group 1-11,text,true,,1755,460,1,1,http://10.124.81.122:1080/cgi-bin/nav.pl?in=home,119,0,0
+1765037239833,293,01_launch,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-12,,true,,4453,1670,1,1,null,0,9,10
+1765037239838,21,01_launch-67,200,OK,Thread Group 1-12,text,true,,664,357,1,1,http://10.124.81.122:1080/WebTours/,20,0,10
+1765037239860,5,01_launch-68,200,OK,Thread Group 1-12,text,true,,1007,411,1,1,http://10.124.81.122:1080/WebTours/header.html,5,0,0
+1765037239866,80,01_launch-69,200,OK,Thread Group 1-12,text,true,,1025,442,1,1,http://10.124.81.122:1080/cgi-bin/welcome.pl?signOff=1,76,0,0
+1765037239947,187,01_launch-70,200,OK,Thread Group 1-12,text,true,,1757,460,1,1,http://10.124.81.122:1080/cgi-bin/nav.pl?in=home,184,0,0
+1765037244821,250,01_launch,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-13,,true,,4445,1670,1,1,null,0,8,11
+1765037244825,21,01_launch-67,200,OK,Thread Group 1-13,text,true,,664,357,1,1,http://10.124.81.122:1080/WebTours/,21,0,11
+1765037244848,6,01_launch-68,200,OK,Thread Group 1-13,text,true,,1007,411,1,1,http://10.124.81.122:1080/WebTours/header.html,6,0,0
+1765037244855,75,01_launch-69,200,OK,Thread Group 1-13,text,true,,1025,442,1,1,http://10.124.81.122:1080/cgi-bin/welcome.pl?signOff=1,73,0,0
+1765037244931,148,01_launch-70,200,OK,Thread Group 1-13,text,true,,1749,460,1,1,http://10.124.81.122:1080/cgi-bin/nav.pl?in=home,145,0,0
+1765037249823,265,01_launch,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-14,,true,,4453,1670,1,1,null,0,8,13
+1765037249828,22,01_launch-67,200,OK,Thread Group 1-14,text,true,,664,357,1,1,http://10.124.81.122:1080/WebTours/,22,0,13
+1765037249851,6,01_launch-68,200,OK,Thread Group 1-14,text,true,,1007,411,1,1,http://10.124.81.122:1080/WebTours/header.html,6,0,0
+1765037249857,80,01_launch-69,200,OK,Thread Group 1-14,text,true,,1025,442,1,1,http://10.124.81.122:1080/cgi-bin/welcome.pl?signOff=1,77,0,0
+1765037249938,157,01_launch-70,200,OK,Thread Group 1-14,text,true,,1757,460,1,1,http://10.124.81.122:1080/cgi-bin/nav.pl?in=home,151,0,0
+1765037254809,329,01_launch,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-15,,true,,4452,1670,1,1,null,0,7,13
+1765037254812,26,01_launch-67,200,OK,Thread Group 1-15,text,true,,664,357,1,1,http://10.124.81.122:1080/WebTours/,26,0,13
+1765037254839,6,01_launch-68,200,OK,Thread Group 1-15,text,true,,1007,411,1,1,http://10.124.81.122:1080/WebTours/header.html,6,0,0
+1765037254846,78,01_launch-69,200,OK,Thread Group 1-15,text,true,,1025,442,1,1,http://10.124.81.122:1080/cgi-bin/welcome.pl?signOff=1,75,0,0
+1765037254925,219,01_launch-70,200,OK,Thread Group 1-15,text,true,,1756,460,1,1,http://10.124.81.122:1080/cgi-bin/nav.pl?in=home,216,0,0
+1765037259808,338,01_launch,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-16,,true,,4449,1670,1,1,null,0,10,12
+1765037259812,24,01_launch-67,200,OK,Thread Group 1-16,text,true,,664,357,1,1,http://10.124.81.122:1080/WebTours/,24,0,12
+1765037259838,6,01_launch-68,200,OK,Thread Group 1-16,text,true,,1007,411,1,1,http://10.124.81.122:1080/WebTours/header.html,6,0,0
+1765037259845,89,01_launch-69,200,OK,Thread Group 1-16,text,true,,1025,442,1,1,http://10.124.81.122:1080/cgi-bin/welcome.pl?signOff=1,85,0,0
+1765037259936,219,01_launch-70,200,OK,Thread Group 1-16,text,true,,1753,460,1,1,http://10.124.81.122:1080/cgi-bin/nav.pl?in=home,216,0,0
+1765037264808,198,01_launch,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-17,,true,,4451,1670,1,1,null,0,4,2
+1765037264809,4,01_launch-67,200,OK,Thread Group 1-17,text,true,,664,357,1,1,http://10.124.81.122:1080/WebTours/,4,0,2
+1765037264814,2,01_launch-68,200,OK,Thread Group 1-17,text,true,,1007,411,1,1,http://10.124.81.122:1080/WebTours/header.html,2,0,0
+1765037264816,53,01_launch-69,200,OK,Thread Group 1-17,text,true,,1025,442,1,1,http://10.124.81.122:1080/cgi-bin/welcome.pl?signOff=1,51,0,0
+1765037264870,139,01_launch-70,200,OK,Thread Group 1-17,text,true,,1755,460,1,1,http://10.124.81.122:1080/cgi-bin/nav.pl?in=home,135,0,0
+1765037269810,164,01_launch,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-18,,true,,4453,1670,1,1,null,0,11,3
+1765037269820,5,01_launch-67,200,OK,Thread Group 1-18,text,true,,664,357,1,1,http://10.124.81.122:1080/WebTours/,5,0,3
+1765037269825,3,01_launch-68,200,OK,Thread Group 1-18,text,true,,1007,411,1,1,http://10.124.81.122:1080/WebTours/header.html,3,0,0
+1765037269828,52,01_launch-69,200,OK,Thread Group 1-18,text,true,,1025,442,1,1,http://10.124.81.122:1080/cgi-bin/welcome.pl?signOff=1,50,0,0
+1765037269881,104,01_launch-70,200,OK,Thread Group 1-18,text,true,,1757,460,1,1,http://10.124.81.122:1080/cgi-bin/nav.pl?in=home,100,0,0
+1765037274801,198,01_launch,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-19,,true,,4447,1670,1,1,null,0,4,4
+1765037274802,8,01_launch-67,200,OK,Thread Group 1-19,text,true,,664,357,1,1,http://10.124.81.122:1080/WebTours/,8,0,4
+1765037274811,3,01_launch-68,200,OK,Thread Group 1-19,text,true,,1007,411,1,1,http://10.124.81.122:1080/WebTours/header.html,3,0,0
+1765037274814,71,01_launch-69,200,OK,Thread Group 1-19,text,true,,1025,442,1,1,http://10.124.81.122:1080/cgi-bin/welcome.pl?signOff=1,68,0,0
+1765037274886,116,01_launch-70,200,OK,Thread Group 1-19,text,true,,1751,460,1,1,http://10.124.81.122:1080/cgi-bin/nav.pl?in=home,112,0,0
+1765037279802,224,01_launch,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-20,,true,,4452,1670,1,1,null,0,4,6
+1765037279804,12,01_launch-67,200,OK,Thread Group 1-20,text,true,,664,357,1,1,http://10.124.81.122:1080/WebTours/,12,0,6
+1765037279816,5,01_launch-68,200,OK,Thread Group 1-20,text,true,,1007,411,1,1,http://10.124.81.122:1080/WebTours/header.html,5,0,0
+1765037279822,84,01_launch-69,200,OK,Thread Group 1-20,text,true,,1025,442,1,1,http://10.124.81.122:1080/cgi-bin/welcome.pl?signOff=1,80,0,0
+1765037279907,123,01_launch-70,200,OK,Thread Group 1-20,text,true,,1756,460,1,1,http://10.124.81.122:1080/cgi-bin/nav.pl?in=home,120,0,0
