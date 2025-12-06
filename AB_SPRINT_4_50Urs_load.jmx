@@ -316,11 +316,11 @@
             </hashTree>
           </hashTree>
         </hashTree>
-        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
+        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <intProp name="LoopController.loops">-1</intProp>
         </LoopController>
         <hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="AB_AS_T04_CLICK_ON_ACCOUNTS">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="AB_AS_T04_CLICK_ON_ACCOUNTS" enabled="true">
             <boolProp name="TransactionController.parent">true</boolProp>
             <boolProp name="TransactionController.includeTimers">false</boolProp>
           </TransactionController>
@@ -581,7 +581,7 @@ log.info(&quot; Balance:&quot; +balance);</stringProp>
         </DebugSampler>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="DD_REQUEST">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="DD_REQUEST" enabled="true">
         <intProp name="ThreadGroup.num_threads">10</intProp>
         <intProp name="ThreadGroup.ramp_time">20</intProp>
         <longProp name="ThreadGroup.duration">3600</longProp>
@@ -1463,7 +1463,7 @@ log.info(&quot; C_commission:&quot; +commission);</stringProp>
         </DebugSampler>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="FUND_TRANSFER">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="FUND_TRANSFER" enabled="true">
         <intProp name="ThreadGroup.num_threads">10</intProp>
         <intProp name="ThreadGroup.ramp_time">20</intProp>
         <longProp name="ThreadGroup.duration">3600</longProp>
@@ -2670,7 +2670,7 @@ if (bal.toDouble() &gt; 0)
           </hashTree>
         </hashTree>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="ACCOUNT_STATMENTS">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="ACCOUNT_STATMENTS" enabled="true">
         <intProp name="ThreadGroup.num_threads">10</intProp>
         <intProp name="ThreadGroup.ramp_time">20</intProp>
         <longProp name="ThreadGroup.duration">3600</longProp>
@@ -2950,7 +2950,7 @@ if (bal.toDouble() &gt; 0)
             </hashTree>
           </hashTree>
         </hashTree>
-        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
+        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <intProp name="LoopController.loops">-1</intProp>
         </LoopController>
         <hashTree>
@@ -3339,7 +3339,7 @@ log.info(&quot;To Date   =&gt; &quot; + C_eday + &quot;-&quot; + C_emon + &quot;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="JSR223 Sampler">
+          <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="JSR223 Sampler" enabled="true">
             <stringProp name="cacheKey">true</stringProp>
             <stringProp name="filename"></stringProp>
             <stringProp name="parameters"></stringProp>
@@ -3451,7 +3451,7 @@ log.info(&quot;✅ Statement written at: &quot; + fileName)
           </hashTree>
         </hashTree>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="PERSONAL_LOANS_APPY">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="PERSONAL_LOANS_APPY" enabled="true">
         <intProp name="ThreadGroup.num_threads">5</intProp>
         <intProp name="ThreadGroup.ramp_time">10</intProp>
         <longProp name="ThreadGroup.duration">3600</longProp>
@@ -6988,7 +6988,7 @@ log.info(result)
         <stringProp name="filename">C:\Users\shaik\OneDrive\Desktop\JMeter_Work\Base_line_test\AB_SPRINT_3_FOR_MIXED2_Results.jtl</stringProp>
       </ResultCollector>
       <hashTree/>
-      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree">
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
