@@ -7,10 +7,12 @@ pipeline {
     }
 
     stages {
+
         stage('Checkout Tests') {
             steps {
-                // Pull your test scripts from Git
-                git branch: 'main', credentialsId:'SHAIK_1122', url: "${TEST_REPO}"
+                git branch: 'main',
+                    credentialsId: 'GitHub-PAT',
+                    url: TEST_REPO
             }
         }
 
@@ -51,7 +53,7 @@ pipeline {
                     git config --global user.name "Masthanshaik1"
 
                     rem Pull latest changes first
-                    git pull https://%GIT_USER%:%GIT_PASS%@github.com/Masthanshaik1/Master-for-PT.git main
+                    git pull https://%GIT_USER%}%GIT_PASS%@github.com/Masthanshaik1/Master-for-PT.git main
 
                     rem Create results folder if not exists
                     if not exist results mkdir results
@@ -72,6 +74,7 @@ pipeline {
         }
     }
 }
+
 
 
 
