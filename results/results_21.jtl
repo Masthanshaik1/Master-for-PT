@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1765023328746,113,AB_AS_T01_LAUNCH_APP,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_SUMMARY 1-1,,true,,2789,353,1,1,null,0,287,72
+1765023329028,113,AB_AS_T01_LAUNCH_APP-51,200,OK,ACCOUNT_SUMMARY 1-1,text,true,,2789,353,1,1,http://192.168.1.4:7001/LoanIQ/,112,0,72
+1765023329150,26,AB_AS_T02_CLICK_ON_PERSONAL,200,"Number of samples in transaction : 1, number of failing samples : 0",ACCOUNT_SUMMARY 1-1,,true,,2700,488,1,1,null,0,3003,0
+1765023332151,26,AB_AS_T02_CLICK_ON_PERSONAL-56,200,OK,ACCOUNT_SUMMARY 1-1,text,true,,2700,488,1,1,http://192.168.1.4:7001/LoanIQ/login.jsp,26,0,0
