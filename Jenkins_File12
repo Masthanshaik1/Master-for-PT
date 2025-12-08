@@ -2,42 +2,68 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'jmeter-with-plugins'  // Your Docker image
-        TEST_REPO  = 'https://github.com/Masthanshaik1/Master-for-PT.git'  // Git repo with .jmx files
+        IMAGE_NAME = 'jmeter-with-plugins'
+        TEST_REPO  = 'https://github.com/Masthanshaik1/Master-for-PT.git'
     }
 
     stages {
+
         stage('Checkout Tests') {
             steps {
-                // Pull your test scripts from Git
-                git branch: 'main', credentialsId: 'SHAIK_1122', url: "${TEST_REPO}"
+                git branch: 'main',
+                    credentialsId: 'GitHub-PAT',
+                    url: "${TEST_REPO}"
             }
         }
 
-        stage('Run JMeter Tests') {
-            steps {
-                script {
-                    // Run Docker container with volume mapping to workspace
-                    bat """
-                    docker run --rm ^
-                        -v "%WORKSPACE%:/tests" ^
-                        ${IMAGE_NAME} ^
-                        /opt/apache-jmeter-5.6.3/bin/jmeter ^
-                        -n -t /JMX/AB_SPRINT_4_50Urs_load.jmx ^
-                        -l results.jtl
-                    """
-                }
-            }
+      stage('Run JMeter Tests') {
+    steps {
+        script {
+            bat """
+            echo === Create Docker network (if not exists) ===
+            docker network create jmeter-net 2>nul || echo Network jmeter-net already exists
+
+            echo === Cleanup old slave containers (if any) ===
+            docker rm -f jmeter-slave1 jmeter-slave2 2>nul || echo No old slaves
+
+            echo === Start JMeter slave 1 (2 vCPUs, 2 GB RAM) ===
+            docker run -d --name jmeter-slave1 --network jmeter-net ^
+              --cpus="2" -m 2g ^
+              ${IMAGE_NAME} ^
+              /opt/apache-jmeter-5.6.3/bin/jmeter-server
+
+            echo === Start JMeter slave 2 (2 vCPUs, 2 GB RAM) ===
+            docker run -d --name jmeter-slave2 --network jmeter-net ^
+              --cpus="2" -m 2g ^
+              ${IMAGE_NAME} ^
+              /opt/apache-jmeter-5.6.3/bin/jmeter-server
+
+            echo === Run JMeter master (1 vCPU, 1 GB RAM) ===
+            docker run --rm --name jmeter-master --network jmeter-net ^
+              --cpus="1" -m 1g ^
+              -v "%WORKSPACE%:/tests" ^
+              -w /tests ^
+              ${IMAGE_NAME} ^
+              /opt/apache-jmeter-5.6.3/bin/jmeter ^
+              -n ^
+              -t JMX/AB_ACCOUNT_SUMMARY_F.jmx ^
+              -l results.jtl -f ^
+              -e -o report ^
+              -R jmeter-slave1,jmeter-slave2
+
+            echo === Stop and remove slave containers ===
+            docker rm -f jmeter-slave1 jmeter-slave2
+
+            echo === Distributed JMeter test finished ===
+            """
         }
+    }
+}
+
 
         stage('Archive Results') {
             steps {
-                archiveArtifacts artifacts: 'results.jtl', fingerprint: true
-            }
-        }
- stage('Archive Results') {
-            steps {
-                archiveArtifacts artifacts: 'LoadTest/results.jtl, report/**', allowEmptyArchive: true
+                archiveArtifacts artifacts: 'results.jtl, report/**', allowEmptyArchive: true
             }
         }
 
@@ -51,8 +77,8 @@ pipeline {
                     )
                 ]) {
                     bat """
-                    git config --global user.email "masthan.shaik@spectravisionit.com"
-                    git config --global user.name "Masthanshaik1"
+                    git config user.email "masthan.shaik@spectravisionit.com"
+                    git config user.name "Masthanshaik1"
 
                     rem Pull latest changes first
                     git pull https://%GIT_USER%:%GIT_PASS%@github.com/Masthanshaik1/Master-for-PT.git main
@@ -62,7 +88,7 @@ pipeline {
 
                     rem Append build number to results file and folder
                     set BUILD_NUM=%BUILD_NUMBER%
-                    copy /Y LoadTest\\results.jtl results\\results_%BUILD_NUM%.jtl
+                    copy /Y results.jtl results\\results_%BUILD_NUM%.jtl
                     xcopy /E /I /Y report results\\report_%BUILD_NUM%
 
                     git add results\\
@@ -76,6 +102,13 @@ pipeline {
         }
     }
 }
+
+
+
+
+
+
+
 
 
 
