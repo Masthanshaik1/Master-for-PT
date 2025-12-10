@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'jmeter-with-plugins'
+        IMAGE_NAME = 'jmeter_with_plugins'
         TEST_REPO  = 'https://github.com/Masthanshaik1/Master-for-PT.git'
     }
 
@@ -73,4 +73,5 @@ docker run --rm ^
         }
     }
 }
+
 
