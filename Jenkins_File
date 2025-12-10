@@ -16,23 +16,17 @@ pipeline {
             }
         }
 
-stage('Run JMeter Tests') {
-    steps {
-        script {
-            bat """
+bat """
 docker run --rm ^
   -v "%WORKSPACE%:/tests" ^
   -w /tests ^
   ${IMAGE_NAME} ^
   -n ^
-  -t webtours07_12.jmx ^
+  -t JMX/webtours07_12.jmx ^
   -l results.jtl ^
   -f ^
   -e -o report
 """
-        }
-    }
-}
 
 
 
@@ -77,6 +71,7 @@ docker run --rm ^
         }
     }
 }
+
 
 
 
