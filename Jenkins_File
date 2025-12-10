@@ -25,7 +25,7 @@ docker run --rm ^
   ${IMAGE_NAME} ^
   -n ^
   -t JMX/webtours07_12.jmx ^
-  -l results.jtl ^
+  -l results.jtl -r ^
   -f ^
   -e -o report
 """
@@ -73,5 +73,6 @@ docker run --rm ^
         }
     }
 }
+
 
 
