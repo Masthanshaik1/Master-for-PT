@@ -25,7 +25,7 @@ docker run --rm ^
   -w /tests ^
   ${IMAGE_NAME} ^
   -n ^
-  -t JMX/AB_ACCOUNT_SUMMARY_F.jmx ^
+  -t webtours07_12.jmx ^
   -l results.jtl ^
   -f ^
   -e -o report
@@ -77,6 +77,7 @@ docker run --rm ^
         }
     }
 }
+
 
 
 
