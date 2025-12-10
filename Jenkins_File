@@ -24,7 +24,6 @@ docker run --rm ^
   -v "%WORKSPACE%:/tests" ^
   -w /tests ^
   ${IMAGE_NAME} ^
-  jmeter ^
   -n ^
   -t JMX/AB_ACCOUNT_SUMMARY_F.jmx ^
   -l results.jtl ^
@@ -34,6 +33,7 @@ docker run --rm ^
         }
     }
 }
+
 
 
         stage('Archive Results') {
@@ -77,6 +77,7 @@ docker run --rm ^
         }
     }
 }
+
 
 
 
