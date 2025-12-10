@@ -16,9 +16,9 @@ pipeline {
             }
         }
 
-        stage('Run JMeter Tests') {
-            steps {
-                bat """
+       stage('Run JMeter Tests') {
+    steps {
+        bat """
 docker run --rm ^
   -v "%WORKSPACE%:/tests" ^
   -w /tests ^
@@ -29,8 +29,8 @@ docker run --rm ^
   -f ^
   -e -o report
 """
-            }
-        }
+    }
+}
 
         stage('Archive Results') {
             steps {
@@ -73,3 +73,4 @@ docker run --rm ^
         }
     }
 }
+
