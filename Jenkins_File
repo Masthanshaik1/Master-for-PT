@@ -28,8 +28,6 @@ docker run --rm ^
   -e -o report
 """
 
-
-
         stage('Archive Results') {
             steps {
                 archiveArtifacts artifacts: 'results.jtl, report/**', allowEmptyArchive: true
@@ -71,6 +69,7 @@ docker run --rm ^
         }
     }
 }
+
 
 
 
