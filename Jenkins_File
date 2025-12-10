@@ -19,17 +19,9 @@ pipeline {
         stage('Run JMeter Tests') {
             steps {
                 script {
-                bat """
-                    docker run --rm ^
-                      -v "%WORKSPACE%:/tests" ^
-                    -w /tests ^
-                      ${IMAGE_NAME} ^
-                      /opt/apache-jmeter-5.6.3/bin/jmeter ^
-                      -n ^
-                      -t JMX/AB_ACCOUNT_SUMMARY_F.jmx ^
-                      -l results.jtl -f ^
-                      -e -o report
-                    """
+                    bat """
+docker run --rm -v "%WORKSPACE%:/tests" -w /tests ${IMAGE_NAME} -n -t JMX/AB_ACCOUNT_SUMMARY_F.jmx -l results.jtl -f -e -o report
+"""
                 }
             }
         }
@@ -75,20 +67,3 @@ pipeline {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
