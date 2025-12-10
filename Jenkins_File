@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'shaik2255/jmeter-with-plugins'
+        IMAGE_NAME = 'jmeter-with-plugins'
         TEST_REPO  = 'https://github.com/Masthanshaik1/Master-for-PT.git'
     }
 
@@ -75,6 +75,7 @@ pipeline {
         }
     }
 }
+
 
 
 
